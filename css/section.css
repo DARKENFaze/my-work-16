@@ -149,7 +149,13 @@
     text-align: center;
     color: rgba(8, 84, 108, 1);
 }
-/* One page start */
+/* One media page start */
+@media(max-width: 1280px) {
+    .section_bottom_texts{
+        position: relative;
+        top: -60px;
+    }
+}
 @media(max-width: 1160px) {
     .static_pages{
         display: flex;
@@ -213,6 +219,11 @@
     .asd{
         display: flex;
         flex-direction: column;
+    }
+}
+@media (max-width: 730px) {
+    .man_page{
+        width: 500px;
     }
 }
 @media (max-width: 829px) {
@@ -304,5 +315,284 @@
     }
     .static-section{
         height: 230vh;
+    }
+}
+/* next page start */
+.nav-aside {
+    margin: 0 auto;
+}
+.aside-h1 {
+    font-family: Schoolbell;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: var(--towhitegreen);
+    text-align: center;
+}
+.aside-p {
+    width: 510px;
+    height: 120px;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: var(--towhitgrn);
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  .box {
+    max-width: 100%;
+    display: flex;
+    padding-top: 70px;
+    justify-content: center;
+    gap: 26px;
+    border-radius: 30px;
+  }
+  .box-aside1 {
+    width: 273px;
+    height: 251px;
+    padding: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+  }
+  .aside-h3 {
+    width: 213px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    padding-top: 29px;
+  }
+  .aside-p1 {
+    max-width: 215px;
+    height: 73px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    padding-top: 10px;
+  }
+  .box-aside2 {
+    width: 273px;
+    height: 251px;
+    padding: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: var(--towhitgrn);
+    color: var(--towhite);
+    border-radius: 15px;
+  }
+  .box-aside2-2{
+    width: 273px;
+    height: 251px;
+    padding: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: var(--towhite);
+    border-radius: 15px;
+  }
+  .box-aside3 {
+    width: 273px;
+    height: 251px;
+    padding: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+  }
+  .box-aside4 {
+    width: 273px;
+    height: 251px;
+    padding: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+  }
+  .two_in_one_2{
+    display: flex;
+    gap: 50px;
+  }
+  /* Two media page start */
+  @media (max-width: 1210px) {
+    .aside_box {
+      display: flex;
+      flex-direction: column;
+    }
+    .box {
+        display: flex;
+        position: relative;
+        top: 75px;
+        justify-content: center;
+        gap: 26px;
+    }
+    .two_in_one_2{
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+    }
+}
+@media(max-width: 612px) {
+    .two_in_one_2{
+        gap: 35px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 537px) {
+    .aside-p {
+      display: flex;
+      font-size: 20px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  @media (max-width: 390px) {
+    .aside-p1 {
+      max-width: 100%;
+    }
+  }
+  /* next */
+  .fatured_page{
+    position: relative;
+    top: 200px;
+    padding-bottom: 500px;
+  }
+.sectio-h1{
+    margin: 0 auto;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 56.25px;
+    text-align:  center;
+    width: 469px;
+    height: 57px;
+    color: rgba(8, 84, 108, 1);
+}
+.section-two{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: rgba(117, 117, 117, 1);
+    width: 600px;
+    margin: 0 auto;
+}
+.in__pages{
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.in__pages_2{
+    position: relative;
+    top: 245px;
+    display: flex;
+    justify-content: space-between;
+}
+.futured_text_1{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+    color: rgba(8, 84, 108, 1);
+    max-width: 100%;
+    position: relative;
+    top: 40px;
+}
+.ftrd_p_2{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: rgba(117, 117, 117, 1);
+    width: 426px;
+    position: relative;
+    top: 80px;
+}
+.ftrd_button_text{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.6px;
+    text-align: left;
+    color: rgba(8, 84, 108, 1);
+    position: relative;
+    top: 100px;
+}
+.ftrd_button_yellow{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.6px;
+    text-align: left;
+    color: rgba(255, 168, 0, 1);
+    position: relative;
+    top: 100px;
+}
+@media(max-width: 1111px) {
+    .in__pages{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        gap: 120px;
+    }
+    .in__pages_2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        gap: 120px;
+    }
+}
+@media (max-width: 630px) {
+    .section-two{
+        max-width: 100%;
+    }
+}
+@media (max-width: 520px) {
+    .sectio-h1{
+        max-width: 100%;
+    }
+    .one__page{
+        max-width: 100%;
+    }
+}
+@media (max-width: 525px) {
+    .gesign_images{
+        max-width: 100%;
+    }
+    .fatured_page{
+        max-width: 100%;
+    }
+}
+@media (max-width: 510px) {
+    .sectio-h1{
+        max-width: 100%;
+        font-size: 25px;
+    }
+}
+@media (max-width: 455px) {
+    .ftrd_p_2{
+        max-width: 100%;
+    }
+}
+@media (max-width: 4px) {
+    .ftrd_p_2{
+        max-width: 100%;
+    }
+    .copy{
+        max-width: 100%;
+    }
+    .gesign_images{
+        max-width: 100%;
     }
 }

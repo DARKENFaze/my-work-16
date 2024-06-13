@@ -13,6 +13,17 @@
     --gameBgP: rgba(153, 153, 153, 0.575);
     --yellovColor: rgb(252, 208, 76);
     --brownColor: rgb(184, 37, 37);
+
+    --tokulrang: rgb(23, 72, 87);
+    --toblackwhite: rgba(161, 181, 187, 1);
+    --tokulranochiq: rgb(20, 94, 118);
+    --towhite: rgba(255, 255, 255, 1);
+    --todarkgreen: rgba(9, 69, 86, 1);
+    --todarkyellov: rgba(255, 166, 58, 1);
+    --towhitegreen: rgb(38, 90, 106);
+    --towhitgrn: rgba(8, 84, 108, 1);
+    --toblack: rgba(15, 18, 33, 1);
+    --todarkimggreen: rgb(7, 71, 91);
   }
   
   html,
