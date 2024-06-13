@@ -1,0 +1,82 @@
+.mode-btn__img {
+    width: 48px;
+  }
+  
+  .dark header {
+    background-image: linear-gradient(
+      to right,
+      var(--brownColor) 50%,
+      var(--todarkimggreen) 50%
+    );
+  }
+  .dark .navbar-shrink {
+    background: var(--gameBgP);
+  }
+  .dark .game-bg__fire--span {
+    color: var(--toRightDark);
+  }
+  
+  .dark .game-bg__btn {
+    background-color: var(--toRightDark);
+  }
+  .dark .yellow_section {
+    background-color: rgb(143, 143, 143);
+  }
+  .dark .game-bg__btn{
+    background-color: var(--brownColor);
+  }
+  .dark .thumbnail{
+    transition: .5s ease;
+  }
+  .dark .thumbnail:hover{
+    box-shadow: 0 0 100px rgba(255, 0, 0, 0.8);
+    border-radius: 50px;
+    transition: .5s ease;
+  }
+  .dark .static-section{
+    background-color: var(--toRightDark);
+    transition: .8s ease;
+  }
+  .static-section:hover{
+    transition: .8s ease;
+  }
+  .dark .section_bottom_texts{
+    box-shadow: 10px 50px 170px 15px rgba(255, 3, 3, 0.603);
+    transition: 0.8s ease;
+  }
+.dark .top-footer{
+    background-color: var(--toRightDark);
+    transition: 0.5s ease;
+}
+.dark .box-aside1{
+    box-shadow: 0 0 30px 5px blue;
+    transition: 0.8s ease;
+}
+.dark .box-aside2-2{
+    box-shadow: 0 0 30px 5px blue;
+    transition: 0.8s ease;
+}
+.dark .fatured_page{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 1s ease;
+}
+.dark .sectio-h1{
+    color: var(--whiteColor);
+}
+.dark .section-two{
+    color: var(--whiteColor);
+}
+.dark .futured_text_1{
+    color: var(--whiteColor);
+}
+.dark .ftrd_p_2{
+    color: var(--whiteColor);
+}
+.dark .ftrd_button_text{
+    color: rgba(187, 22, 228, 0.87);
+}
+.dark .gesign_images{
+    border-radius: 15px;
+    transition: 1.4s ease;
+}
